@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    alert()->success('You have been logged out.', 'Good bye!');
+    return view('index');
 });
+
+Auth::routes();
+
