@@ -45,7 +45,7 @@
                                                 type="checkbox" name="remember" checked><span
                                                 class="checkmark"></span></label>
                                     </div>
-                                    <div class="w-50 text-md-right"><a href="#">Forgot Password</a></div>
+                                    <div class="w-50 text-md-right"><a href="{{route('password.request')}}">Forgot Password</a></div>
                                 </div>
 
                                 <div class="form-group justify-content-between d-flex">
