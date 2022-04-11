@@ -40,7 +40,7 @@
 
     @yield('content')
     
-
+    @include('sweet::alert')
      
 </body>
 </html>

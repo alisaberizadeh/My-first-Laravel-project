@@ -49,9 +49,9 @@
                                 </div>
 
                                 <div class="form-group justify-content-between d-flex">
-                                    <a href="" class="auth_social btn github"><i class="fa fa-github"></i></a>
-                                    <a href="" class="auth_social btn google"><i class="fa fa-google"></i></a>
-                                    <a href="" class="auth_social btn linkedin"><i class="fa fa-linkedin"></i></a>
+                                    <a href="{{route('auth.github')}}" class="auth_social btn github"><i class="fa fa-github"></i></a>
+                                    <a href="{{route('auth.google')}}" class="auth_social btn google"><i class="fa fa-google"></i></a>
+                                    <a href="{{route('auth.linkedin')}}" class="auth_social btn linkedin"><i class="fa fa-linkedin"></i></a>
                                 </div>
 
 

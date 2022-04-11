@@ -30,4 +30,23 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'google' => [
+        'client_id' => env('GOOGLE_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_SECRET_KEY'),
+        'redirect' => env('GOOGLE_CALLBACK_URL'),
+    ],
+
+
+    'github' => [
+        'client_id' => env('GITHUB_CLIENT_ID'),
+        'client_secret' => env('GITHUB_SECRET_KEY'),
+        'redirect' => env('GITHUB_CALLBACK_URL'),
+    ],
+
+    'linkedin' => [
+        'client_id' => env('LINKEDIN_CLIENT_ID'),
+        'client_secret' => env('LINKEDIN_SECRET_KEY'),
+        'redirect' => env('LINKEDIN_CALLBACK_URL'),
+    ],
+
 ];
